@@ -15,6 +15,7 @@ public class ArrayListSample {
         places.add("リスボン");
         places.add("ヨセミテ国立公園");
         
+        
         //要素の取得
         String firstItem = places.get(0); //最初の要素の取得
         System.out.println("1番目の要素（置換前）：" + firstItem);
@@ -36,7 +37,7 @@ public class ArrayListSample {
         
         //forEachとラムダ式による取得
         System.out.println("forEachとラムダ式による取得：");
-        places.forEach((place) -> System.out.println(place));
+        places.forEach((String place) -> System.out.println(place));
         
         //サイズの取得
         int size = places.size(); //リストのサイズを取得

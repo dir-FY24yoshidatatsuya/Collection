@@ -15,10 +15,20 @@ public class MultiArraySample {
         //2次元配列の要素を表示
         for (var i = 0; i < matrix.length; i++) {
             for (var j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j] + " ");
+              //  System.out.print(matrix[i][j] + " ");
             }
-            System.out.println();
+     //       System.out.println();
         }
+        
+        for (var i = 0; i < matrix.length; i++) {
+            for (var j = 0; j < matrix[i].length; j++) {
+                System.out.print(i);
+                System.out.print(j);
+                System.out.println(" ");
+            }
+        }
+        
+        System.out.println(matrix.length);
 
     }
 
